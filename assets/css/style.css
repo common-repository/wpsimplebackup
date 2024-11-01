@@ -1,0 +1,56 @@
+/*
+* WPSimpleBackup Stylesheet Document
+*/
+
+.margintop10{
+    margin-top: 10px;
+}
+
+.margintop20{
+    margin-top: 20px;
+}
+
+.width100{
+    width:100%;
+}
+
+.inlineblock{
+    display: inline-block;
+}
+
+table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_both, table.dataTable thead .sorting{
+    background-image: none !important;
+}
+
+.margin10{
+    margin: 10px 0px !important;
+}
+
+.dataTables_length{
+    margin-bottom: 10px;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 99999999; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#overlaytext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
